@@ -1,0 +1,194 @@
+.header-7-1 .btn-try {
+    font-weight: 600;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.05em;
+    color: #fff;
+    border-radius: 0.75rem;
+}
+
+.header-7-1 .btn-fill {
+    background-image: linear-gradient(rgb(255, 30, 79),
+            rgb(228, 19, 61));
+    box-shadow: 0px 21px 45px 0px rgba(215, 236, 255, 0.61);
+    transition: 0.1s;
+}
+
+.header-7-1 .btn-fill:hover {
+    background-image: linear-gradient(rgb(247, 0, 33),
+            rgb(211, 0, 35));
+    transition: 0.1s;
+}
+
+.header-7-1 .btn-how {
+    font-weight: 500;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.05em;
+    color: #544c6f;
+    transition: 0.1s;
+}
+
+.header-7-1 .btn-how:hover {
+    color: #0a345f;
+    transition: 0.1s;
+}
+
+.header-7-1 .text-blue-1 {
+    color: #000000;
+}
+
+.header-7-1 .title-font {
+    font: 700 2.25rem/1.25 "Poppins", sans-serif;
+    color: #16005c;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.header-7-1 .caption-font {
+    margin-bottom: 5rem;
+    letter-spacing: 0.025em;
+    color: #5d4e8e;
+}
+
+.header-7-1 .left-col,
+.header-7-1 .right-col {
+    width: 100%;
+}
+
+.header-7-1 .left-col {
+    margin-bottom: 3rem;
+}
+
+.header-7-1 .main {
+    padding: 2.5rem 2rem 4rem;
+}
+
+.header-7-1 .navbar {
+    padding: 2rem;
+}
+
+.header-7-1 .navbar-light .navbar-nav .nav-link {
+    font: 400 0.875rem/1.25rem Poppins, sans-serif;
+    color: #16005c;
+    transition: 0.3s;
+}
+
+.header-7-1 .navbar-light .navbar-nav .nav-link.active,
+.header-7-1 .navbar-light .navbar-nav .nav-link:hover {
+    font: 600 0.875rem/1.25rem Poppins, sans-serif;
+    color: #0061c3;
+    transition: 0.3s;
+}
+
+.header-7-1 .btn-login {
+    font: 600 0.875rem/1.25rem Poppins, sans-serif;
+    padding: 1rem 2rem;
+    letter-spacing: 0.05em;
+}
+
+.header-7-1 .btn-register {
+    font: 600 0.875rem/1.25rem Poppins, sans-serif;
+    padding: 1rem 2rem;
+    letter-spacing: 0.05em;
+    border-radius: 0.75rem;
+}
+
+.header-7-1 .nav-dropdown {
+    background-color: #ffffff;
+    padding: 0.625rem;
+    border-radius: 0.5rem;
+    border: none;
+    width: 138px;
+    --tw-shadow: 0 0px 20px 0 rgba(156, 156, 156, 0.1),
+        0 0px 20px 0 rgba(156, 156, 156, 0.1);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(167, 167, 167, 0)),
+        var(--tw-ring-shadow, 0 0 rgba(167, 167, 167, 0)), var(--tw-shadow);
+}
+
+.header-7-1 .dropdown-item a,
+.header-7-1 .dropdown-item {
+    font: 500 0.75rem/1rem Poppins, sans-serif;
+    color: #000;
+    background-color: #ffffff;
+    transition: 0.2s;
+}
+
+.header-7-1 .dropdown-item:focus a,
+.header-7-1 .dropdown-item:hover a,
+.header-7-1 .dropdown-item:hover {
+    transition: 0.2s;
+    background-color: #dbedff;
+    border-radius: 0.5rem;
+}
+
+@media (min-width: 576px) {
+    .header-7-1 .title-font {
+        font: 700 3rem/1.25 "Poppins", sans-serif;
+    }
+
+    .header-7-1 .dropdown-header .dropdown-header-hover:hover .dropdown-header-icon-arrow {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-7-1 {
+        background-image: url("http://api.elements.buildwithangga.com/storage/files/2/assets/Header/Header7/Header-7-2.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .header-7-1 .main {
+        padding: 2.5rem 4rem 4rem;
+    }
+
+    .header-7-1 .left-col {
+        margin-bottom: 4rem;
+    }
+
+    .header-7-1 .navbar {
+        padding: 2rem 4rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .header-7-1 .left-col,
+    .header-7-1 .right-col {
+        width: 50%;
+    }
+
+    .header-7-1 .main {
+        padding: 2.5rem 7rem 4rem 9rem;
+    }
+
+    .header-7-1 .left-col {
+        margin-bottom: 0rem;
+    }
+
+    .header-7-1 .title-font {
+        font: 700 3.75rem/1.25 "Poppins", sans-serif;
+    }
+
+    .header-7-1 .navbar {
+        padding: 2rem 6rem;
+    }
+}
+
+@media (min-width: 1200px) {}
+
+@media all and (min-width: 992px) {
+    .header-7-1 .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .header-7-1 .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .header-7-1 .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
