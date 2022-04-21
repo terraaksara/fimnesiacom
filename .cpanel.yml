@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+  - export DEPLOYPATH =/home/u1787412/public_html/
+  - /bin/cp index.php $DEPLOYPATH
+  - /bin/cp login.php $DEPLOYPATH
+  - /bin/cp style.css $DEPLOYPATH
+  - /bin/cp -R Image $DEPLOYPATH
